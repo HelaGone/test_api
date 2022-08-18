@@ -1,15 +1,16 @@
 {
   "Post": {
-    "title": { "loremWord": {}},
-    "url": {"regexp": "https://example.com/"},
+    "title": { 
+      "loremWords": {"minLength": 5, "maxLength": 12}
+    },
+    "url": {
+      "regexp": "https://example\\.com\/"
+    },
     "image": {
       "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
-    }
-  },
-  "Comment":{
-    "body": {"string": {}},
-    "post":{
-      "belongsTo": "Post"
-    }
+    },
+    "altText": {
+      "loremWords": {"minLength":5,"maxLength":8}
+    },
   }
 }
