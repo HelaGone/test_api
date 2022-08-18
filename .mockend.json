@@ -1,5 +1,10 @@
 {
   "User": {
-    "title": { "string": {} }
+    "title": { 
+      "string": {
+        "name": "Holkan",
+        "lastName": "Luna"
+      }
+    }
   }
 }
