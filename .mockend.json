@@ -1,7 +1,7 @@
 {
   "Post": {
     "title": { 
-      "loremWords": {"minLength": 5, "maxLength": 12}
+      "loremWords": {"minLength": 10, "maxLength": 30}
     },
     "url": {
       "regexp": "https://example\\.com\/"
@@ -10,7 +10,7 @@
       "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
     },
     "altText": {
-      "loremWords": {"minLength":5, "maxLength":8}
+      "loremWords": {"minLength":10, "maxLength":20}
     }
   }
 }
