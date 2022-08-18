@@ -7,7 +7,7 @@
       "regexp": "https://example\\.com\/"
     },
     "image": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1280/720"
     },
     "altText": {
       "loremWords": {"minLength":10, "maxLength":20}
